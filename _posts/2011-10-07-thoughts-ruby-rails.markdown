@@ -21,9 +21,9 @@ Things I like
 *   **Haml**- Haml lets you write
 
     {% highlight html%} 
-    <div class="hello">
-      <h1>Text</h1>
-    </div>
+<div class="hello">
+    <h1>Text</h1>
+</div>
     {% endhighlight %}
 
     as
