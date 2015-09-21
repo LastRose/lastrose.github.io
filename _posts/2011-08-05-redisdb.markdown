@@ -15,6 +15,7 @@ For those not familiar with Redis, it is a key value store that holds the data i
 Wanting to do something to try out with redis, and looking at my project board, I decided to use it in a quote database website along with Sinatra.
 
 I've been using SQL for a long time, and I instantly though up of an SQL strutucture that could work. It's simple right?
+
 <table class="table table-bordered table-condensed">
 <tbody>
 <tr>
@@ -43,6 +44,7 @@ I've been using SQL for a long time, and I instantly though up of an SQL strutuc
 </tr>
 </tbody>
 </table>
+
 Of course, this is not SQL, so that structure goes right out the window. since we are dealing with a key value store, we need a key that we will use to retrieve, and the value will be our data. Redis supports a number of different data types, the ones that I used are the list and the string. So we have 3 main keys and 1 key for each quote, looking something like this
 <pre>table:nextquote //a string that is incremented using the INCR redis command each time a quote is added
 table:quote:app //a list containing the ID of all approved quotes
