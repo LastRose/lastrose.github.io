@@ -4,10 +4,10 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: Last Rose Studios Dev Blog
+subtitle: "Development Blog for Last Rose Studios"
+email: gabriel@lastrose.com
+name: Gabriel
 description: > 
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/centrarium/" # the subpath of your site, e.g. /blog/

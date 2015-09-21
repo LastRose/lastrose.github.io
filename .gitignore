@@ -5,3 +5,4 @@ _site
 
 # Sass garbage
 .sass-cache
+prepros.cfg
