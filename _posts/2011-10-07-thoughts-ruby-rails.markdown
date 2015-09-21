@@ -18,17 +18,8 @@ I finally broke down and decided to see what all the hype is about with Ruby on 
 
 Things I like
 
-*   **Haml**- Haml lets you write
-
-    <pre> <div class="hello"><h1>Text</h1></div></pre> as
-
-    {% highlight haml %} 
-        .hello
-          %h1 Text
-    {% endhighlight %}
-
-    Despite my initial reservations about it, I do appreciate how fast this makes coding. I do worry that it introduces overhead when it comes time to serve the documents though, and it can get fussy with your indentation.
-*   **SCSS** - I first encountered SCSS in my experience with a now abandonded project called webputty , and there definitely things I like about it. It allowed for nesting selectors to show inheritance (though if over used can cause repeated code), variables, and function in CSS. Furthermore it minifies the code. While not as powerful as a php css file, it can be easier to manage.
+*   **Haml**- is a templating engine (jade is the node.js equivelant). It does make writting html much faster though, and rails does make use of it. Despite my initial reservations about it, I do appreciate how fast this makes coding. I do worry that it introduces overhead when it comes time to serve the documents though, and it can get fussy with your indentation.
+*   **SCSS** - a css preprocessor, and again not so much ruby or rails specific. I first encountered SCSS in my experience with a now abandonded project called webputty, and there definitely things I like about it. It allowed for nesting selectors to show inheritance (though if over used can cause repeated code), variables, and function in CSS. Furthermore it minifies the code. 
 *   **belongs_to and has_many database relationships** - Rails lets you describe relationships in the model, and will handle most of the joins, selects and so on. The way rails handles database relationships is absolutely amazing, and by far one of my favorite features. I do worry about the performance hit it must cost, but for rapid prototyping this is a major selling point.
 *   **git interaction** - With the rails workflow, there is no reason not to use version control. With PHP and other frameworks you spend a lot of time in an IDE, where versioning can be a bit of a pain in the butt. With rails, since you spend a lot of time on the command line, it's just a few characters away. Especially if you deploy to heroku, it's git and then heroku and that's it.
 *   **3 environments** - Testing, Development and Production. This is genius, allowing you to have different DB's, configuration settings, and gems loaded based on the usage is brilliant, and makes working with rails a little easier.
