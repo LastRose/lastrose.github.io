@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Discovering Redis"
+permalink: redisdb
+date:   2011-08-05 08:43:59
+author: Last Rose Studios
+categories: Programming
+tags: Database Redis
+---
+
+I've been reading a bit about noSQL databases, and I recently came across <a title="Redis" href="http://redis.io/">redis</a>. I saw it implemented in a URL shortening app, and loved the simplicity of it.
+
+For those not familiar with Redis, it is a key value store that holds the data in memory (saving to disk for permanent storage) . Since memory is roughly 10x faster than disk, this database is quick. It's also very easy to scale, making it a great choice for a small project that could end up with a lot of traffic.
+
+Wanting to do something to try out with redis, and looking at my project board, I decided to use it in a quote database website along with Sinatra.
+
+I've been using SQL for a long time, and I instantly though up of an SQL strutucture that could work. It's simple right?
+<table class="table table-bordered table-condensed">
+<tbody>
+<tr>
+<td class="fieldcolumn" align="center" valign="top">Field</td>
+<td class="fieldcolumn" align="center" valign="top">Type</td>
+</tr>
+<tr>
+<td>quote_id</td>
+<td>bigint(20) unsigned</td>
+</tr>
+<tr>
+<td>quote_content</td>
+<td>text</td>
+</tr>
+<tr>
+<td>quote_time</td>
+<td>datetime</td>
+</tr>
+<tr>
+<td>quote_approved</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>quote_author</td>
+<td>varchar(100)</td>
+</tr>
+</tbody>
+</table>
+Of course, this is not SQL, so that structure goes right out the window. since we are dealing with a key value store, we need a key that we will use to retrieve, and the value will be our data. Redis supports a number of different data types, the ones that I used are the list and the string. So we have 3 main keys and 1 key for each quote, looking something like this
+<pre>table:nextquote //a string that is incremented using the INCR redis command each time a quote is added
+table:quote:app //a list containing the ID of all approved quotes
+table:quote:new //a list containing the ID of all new quotes that have yet to be approved
+table:quote:{quoteid} //a string containing a json array with the content, time, id, and author.</pre>
+I'm sure there is probably a better way of doing it, however for my first tangle with redis, I was pretty happy with what I had so far.  Approving a quote deleted the quoteid from the new list and pushed it onto the approved list, submitting a quote incremented the nextpost (the return value of which would be the quote ID), added the ID to the new list and created the actual quote.
+
+Now I mentioned how I loved the simplicity of redis, let me give an example of how simple it really is. To get my next quote id I just used "GET table:nextquote" that's it that's all, to set my quote, "SET table:quote:{quoteid} 'Quote goes here" it is unbelievably easy to use.
+
+My biggest issue with redis is search. An SQL search is relatively easy, redis unfortunately doesn't have any support for search. The best way I've found to implement search is to pull all the quotes, and check each one to see if it matches.
+
+Redis definitely changed how I think about databases, and I can really see some cool things I can do with it, but it's going to be really hard to leave the comfort of a a well structured SQL database, especially when doing larger projects.
+
+If you want more information about redis, take a look at <a title="Redis" href="http://redis.io/">redis.io</a>, they have some great documentation as well as a sample applications built with redis.
