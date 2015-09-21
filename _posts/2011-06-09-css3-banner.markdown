@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "CSS3 Banner"
+permalink: css3-banner
+date:   2011-06-09 08:43:59
+author: Last Rose Studios
+categories: Programming
+tags: CSS HTML
+---
+
+webdesign.tutsplus.com did a ribbon a while back, and I figured out a way to get it on using as little an image as possible. While using an image is still the most compatible way of doing it, here is a way to create a banner using in CSS3 using the code and image below. Demo is available [http://jsfiddle.net/lastrose/yTVYD/](http://jsfiddle.net/lastrose/yTVYD/) <iframe width="100%" height="300" src="http://jsfiddle.net/lastrose/yTVYD/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>Here is the html
+
+{% highlight html %}
+<div class=“ribbon”>
+  <h1>3D Ribbon Effect</h1>
+</div>
+{% endhighlight %}
+
+and here is the CSS
+
+{% highlight css %}
+div{
+  margin:60px auto;
+  height:50px;
+  width:200px;
+  background-color:red;
+  background-image:url(background.gif);
+  position:relative;
+  -webkit-border-top-right-radius:10px;
+  -webkit-box-shadow:0px 2px 2px #333;
+}
+
+h1{
+  line-height:50px;
+  color:#fff;
+  text-shadow:0px 2px rgba(0,0,0,.4);
+  font-size:18px;
+  font-weight:bold;
+  margin-left:30px;
+}
+
+div:after{
+  content: ‘’;
+  background-color:darkred;
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  bottom: -10px;
+  right: 0px;
+  z-index: -1;
+  -webkit-transform: skewY(-40deg);
+}
+
+div:before{
+  content: ‘’;
+  width:36px;
+  height:35px;
+  background:red;
+  background-image:url(background.gif);
+  background-position:center;
+  position:absolute;
+  left:-18px;
+  top:8px;
+  z-index:1;
+  -webkit-transform:rotate(45deg);
+  -webkit-box-shadow:-1px 2px 2px #333;
+}
+{% endhighlight %}
