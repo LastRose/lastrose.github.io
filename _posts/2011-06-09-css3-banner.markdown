@@ -9,7 +9,7 @@ tags: CSS HTML
 ---
 
 webdesign.tutsplus.com did a ribbon a while back, and I figured out a way to get it on using as little an image as possible. While using an image is still the most compatible way of doing it, here is a way to create a banner using in CSS3 using the code and image below. Demo is available [http://jsfiddle.net/lastrose/yTVYD/](http://jsfiddle.net/lastrose/yTVYD/)
-<iframe width="100%" height="300" src="http://jsfiddle.net/lastrose/yTVYD/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>Here is the html
+<iframe width="100%" height="300" src="http://jsfiddle.net/lastrose/yTVYD/embedded/result" frameborder="0"></iframe>Here is the html
 
 {% highlight html %}
 <div class=“ribbon”>
