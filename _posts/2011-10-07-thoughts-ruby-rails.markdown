@@ -20,7 +20,7 @@ Things I like
 
 *   **Haml**- Haml lets you write
 
-    {% highlight html%} 
+    {% highlight html %} 
 <div class="hello">
     <h1>Text</h1>
 </div>
