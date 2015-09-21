@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Google Chrome for windows font rendering solution"
+permalink: google-chrome-windows-font-rendering-solution
 date:   2013-06-02 08:43:59
 author: Last Rose Studios
 categories: Programming
