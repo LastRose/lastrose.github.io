@@ -21,16 +21,16 @@ Things I like
 *   **Haml**- Haml lets you write
 
     {% highlight html %} 
-<div class="hello">
-    <h1>Text</h1>
-</div>
+        <div class="hello">
+            <h1>Text</h1>
+        </div>
     {% endhighlight %}
 
     as
 
     {% highlight haml %} 
-    .hello
-      %h1 Text
+        .hello
+          %h1 Text
     {% endhighlight %}
 
     Despite my initial reservations about it, I do appreciate how fast this makes coding. I do worry that it introduces overhead when it comes time to serve the documents though, and it can get fussy with your indentation.
