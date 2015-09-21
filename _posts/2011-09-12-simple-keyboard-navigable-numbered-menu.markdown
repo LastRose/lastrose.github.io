@@ -8,7 +8,9 @@ categories: Programming
 tags: CSS HTML
 ---
 
-After seeing a numbered navigation on a site that was non-functional, it gave me an idea for a functional one. I built this up as a little mobile style site, though I haven't really tested it on a mobile device so I can't say for sure how well this works on a mobile platform. Example of it in action can be seen [here](http://jsfiddle.net/lastrose/JWUuL/embedded/result/) <iframe src="http://jsfiddle.net/lastrose/JWUuL/embedded/result/" width="100%" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe>The javascript is optional and it works very well without it (using access keys).
+After seeing a numbered navigation on a site that was non-functional, it gave me an idea for a functional one. I built this up as a little mobile style site, though I haven't really tested it on a mobile device so I can't say for sure how well this works on a mobile platform. Example of it in action can be seen [here](http://jsfiddle.net/lastrose/JWUuL/embedded/result/)
+<iframe src="http://jsfiddle.net/lastrose/JWUuL/embedded/result/" width="100%" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+The javascript is optional and it works very well without it (using access keys).
 
 {% highlight html %}
 <!doctype html>
