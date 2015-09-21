@@ -6,6 +6,7 @@ date:   2011-06-09 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: CSS HTML
+cover: /assets/instacode.png
 ---
 
 webdesign.tutsplus.com did a ribbon a while back, and I figured out a way to get it on using as little an image as possible. While using an image is still the most compatible way of doing it, here is a way to create a banner using in CSS3 using the code and image below. Demo is available [http://jsfiddle.net/lastrose/yTVYD/](http://jsfiddle.net/lastrose/yTVYD/)
