@@ -20,13 +20,7 @@ Things I like
 
 *   **Haml**- Haml lets you write
 
-    {% highlight html %} 
-        <div class="hello">
-            <h1>Text</h1>
-        </div>
-    {% endhighlight %}
-
-    as
+    <pre> <div class="hello"><h1>Text</h1></div></pre> as
 
     {% highlight haml %} 
         .hello
