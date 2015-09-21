@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300");
+@import url("//fonts.googleapis.com/css?family=Oxygen:400,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300");
 html {
   box-sizing: border-box;
 }
@@ -17,13 +17,13 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #2980b9;
+  background-color: #990000;
   border-radius: 3px;
   border: none;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -41,7 +41,7 @@ input[type="reset"]:focus, input[type="submit"]:hover,
 input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background-color: #1b557a;
+  background-color: #4d0000;
   color: #fff;
 }
 
@@ -62,7 +62,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
 }
 
@@ -87,7 +87,7 @@ textarea {
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   margin-bottom: 14.4px;
   padding: 9.6px;
@@ -104,8 +104,8 @@ textarea:hover {
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
 select[multiple=multiple]:focus,
 textarea:focus {
-  border-color: #2980b9;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(36, 114, 164, 0.7);
+  border-color: #990000;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(128, 0, 0, 0.7);
   outline: none;
 }
 
@@ -212,7 +212,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #333;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -223,7 +223,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Oxygen", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.8;
   margin: 0 0 16px;
@@ -259,14 +259,14 @@ p {
 }
 
 a {
-  color: #2980b9;
+  color: #990000;
   text-decoration: none;
 }
 
 a:active,
 a:focus,
 a:hover {
-  color: #20638f;
+  color: #660000;
   text-decoration: underline;
 }
 
@@ -383,7 +383,7 @@ pre code.hljs {
 *	Header
 */
 .navigation {
-  box-shadow: 0 2px #6fa9d0;
+  box-shadow: 0 2px #5f8f00;
   padding: 0 1em;
   margin: 0;
   /*
@@ -595,7 +595,7 @@ pre code.hljs {
 .page-content .site-header-container {
   color: #fff;
   text-shadow: 0 2px 1px rgba(0, 0, 0, 0.33);
-  background-color: #6fa9d0;
+  background-color: #5f8f00;
 }
 
 .page-content .site-header-container .site-header .title {
@@ -731,7 +731,7 @@ pre code.hljs {
 */
 .site-footer {
   padding: 1em 1em 2em 1em;
-  background-color: #6fa9d0;
+  background-color: #5f8f00;
   color: #fff;
   /*
 	*	Site Navigation (left)
