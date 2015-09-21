@@ -6,7 +6,9 @@ date:   2011-11-07 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: HTML
+cover: "./assets/instacode.png"
 ---
+
 In a project we recently worked on, we were faced with the decision between RDFa (xHTML), Microformats(the oldest of the standards) and Microdata(html5).  Considering that we were working in HTML5, RDFa was immediately out. Microformats was a strong contender, however ultimately, microdata won out.
 
 ## First of all what is Microdata and why is it usefull?
