@@ -6,6 +6,7 @@ date:   2012-02-06 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: Node.js
+cover: "./assets/instacode.png"
 ---
 
 In response to http://codeslinger.posterous.com/if-youre-using-nodejs-youre-doing-life-wrong

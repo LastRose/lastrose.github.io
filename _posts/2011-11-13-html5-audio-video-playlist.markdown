@@ -6,6 +6,7 @@ date:   2011-11-13 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: HTML Tutorial
+cover: "./assets/instacode.png"
 ---
 
 ## What are HTML5 audio and HTML5 video

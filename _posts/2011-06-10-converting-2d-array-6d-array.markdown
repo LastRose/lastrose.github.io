@@ -6,6 +6,7 @@ date:   2011-06-10 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: PHP
+cover: "./assets/instacode.png"
 ---
 
 The first version of this blog was written in CodeIgniter, mostly just to give it a try. I had it using the MetaWeblog API which was a useless feature for me, but was still a cool thing to accomplish. In the end I converted the whole thing over to wordpress, since blogging is what wordpress is for. During the course of the CodeIgniter bit though I had to deal with nested comments. For the comments section I wanted to keep it simple. 3 generations of comments, easy right? So for the database i have the basics

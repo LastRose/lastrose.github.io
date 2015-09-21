@@ -6,6 +6,7 @@ date:   2011-12-23 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: Node.js express.js
+cover: "./assets/instacode.png"
 ---
 
 We've been interested in [node.js](http://nodejs.org/) for a while, however  just recently found out about the [express framework](http://expressjs.com). Having worked with ruby and sinatra, as discussed [here](http://www.lastrose.com/redis-db/ "A quick look at Sinatra"), one of the things we loved about sinatra was how easy it was to work with. Express does that, and in my opinion possibly better. Of course the language and framework is still young, so it will grow and develop.

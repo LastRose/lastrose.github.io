@@ -6,6 +6,7 @@ date:   2013-01-28 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: 
+cover: "./assets/instacode.png"
 ---
 
 First let's clarify, when we say using the latest, we don't mean developing using the latest version, we mean linking to a CDN's latest version (for example of jQuery.)

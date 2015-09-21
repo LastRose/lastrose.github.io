@@ -6,6 +6,7 @@ date:   2011-09-12 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: CSS HTML
+cover: "./assets/instacode.png"
 ---
 
 After seeing a numbered navigation on a site that was non-functional, it gave me an idea for a functional one. I built this up as a little mobile style site, though I haven't really tested it on a mobile device so I can't say for sure how well this works on a mobile platform. Example of it in action can be seen [here](http://jsfiddle.net/lastrose/JWUuL/embedded/result/)

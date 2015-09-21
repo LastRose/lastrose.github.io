@@ -6,6 +6,7 @@ date:   2011-08-05 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: Sinatra Ruby
+cover: "./assets/instacode.png"
 ---
 
 I've been wanting to dig into ruby for a while now, and I recently came across a tutorial for building a URL shortener using the noSQL key value store [Redis](http://www.lastrose.com/redisdb/ "Discovering Redis") and a ruby framework called Sinatra (the tutorial can be found at [net.tuts.com](http://net.tutsplus.com/tutorials/ruby/how-to-build-a-shortlink-app-with-ruby-and-redis/)). After reading that I knew I wanted to use Sinatra in my next project despite my very low knowledge of ruby, it looked so incredibly simple. What I love about Sinatra is how you specify the method, and the route, making form submission a breeze and playing real well with REST.

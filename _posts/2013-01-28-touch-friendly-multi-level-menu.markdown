@@ -6,6 +6,7 @@ date:   2013-01-28 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: HTML CSS Navigation
+cover: "./assets/instacode.png"
 ---
 
 Multi-Level menus are the foundation of many content-rich sites. They allow users to get to content without too much effort or searching. One click to get to what they want. That changed with widespread usage of smart phones and tablets.

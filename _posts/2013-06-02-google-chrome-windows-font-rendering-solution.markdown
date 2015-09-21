@@ -6,6 +6,7 @@ date:   2013-06-02 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: CSS Design
+cover: "./assets/instacode.png"
 ---
 
 One of the biggest pains about Chrome for windows is how it renders fonts. Internet Explorer has no issues (surprisingly) nor does Firefox, or Chrome for Mac. The problem is only on Chrome for windows. What's the problem? Jagged fonts that look awful and are not consistent with the other browsers.

@@ -6,6 +6,7 @@ date:   2011-08-05 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: Database Redis
+cover: "./assets/instacode.png"
 ---
 
 I've been reading a bit about noSQL databases, and I recently came across <a title="Redis" href="http://redis.io/">redis</a>. I saw it implemented in a URL shortening app, and loved the simplicity of it.

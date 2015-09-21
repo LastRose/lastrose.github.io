@@ -6,6 +6,7 @@ date:   2011-06-11 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: jQuery
+cover: "./assets/instacode.png"
 ---
 
 Example can be seen at [jsfiddle.net/Gr7Vp/](http://jsfiddle.net/Gr7Vp/) 

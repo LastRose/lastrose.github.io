@@ -6,6 +6,7 @@ date:   2011-09-21 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: CSS Tutorial
+cover: "./assets/instacode.png"
 ---
 
 I won't go through the minor details, but rather highlight the things that make this tick. I also set this up for webkit only, I tried getting it work in firefox, but couldn't get the rotateX to work (not yet supported?) and didn't bother with IE, as IE will only just be getting that working by the time css4 comes out. I set up one container (#example) as my viewport, which I give a fixed width and height, and set overflow to hidden. I also make sure to set it's position.  Setting it's position will allow me control over how the text will scroll.

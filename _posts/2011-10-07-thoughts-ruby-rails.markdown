@@ -6,6 +6,7 @@ date:   2011-10-07 08:43:59
 author: Last Rose Studios
 categories: Programming
 tags: Rails Ruby
+cover: "./assets/instacode.png"
 ---
 
 I finally broke down and decided to see what all the hype is about with Ruby on Rails.  Like all things, there are aspects I like about rails, and there are things I don't like about it. To begin, The things I don't like about rails are
