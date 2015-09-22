@@ -24,9 +24,9 @@ of course you can format that image however you want at this point as you are in
 
 {% highlight html+django %} {% raw %}
 <ul class="bxslider">
-\{% for slide in widget_data.custom_slider.slides %}
-<li><img src="{{ slide.img_src }}" alt="{{ slide.alt_text }}" title="{{ slide.caption }}"></li>
-\{% endfor %}
+  {% for slide in widget_data.custom_slider.slides %}
+    <li><img src="{{ slide.img_src }}" alt="{{ slide.alt_text }}" title="{{ slide.caption }}"></li>
+  {% endfor %}
 </ul>
 {% endraw %}
 {% endhighlight %}
