@@ -11,6 +11,7 @@ cover: "./assets/instacode.png"
 
 We've been working with hubspot ever since they launched their new COS, and have built a number of sites on the platform. To be honest, it hasn't been all a great experience.
 Here are a few of the problems we've had
+
 *   *Little to no documentation* - though this has improved massively since they launched, there are still a bunch of holes in the documentation.
 *   *Visual designer based on bootstrap 2.3* - while bootstrap is great, version 4 is right around the corner, and 3 has been out for a while. I understand why they chose to go that direction (two breakpoints are easier to maintain)
 *   *They claim it is a responsive COS* - This claim is completely false, it's like stating wordpress or drupal are responsive. The platform in and of itself is not responsive, the themes that you develop for it are.
