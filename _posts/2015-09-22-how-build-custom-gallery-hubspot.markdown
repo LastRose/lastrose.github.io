@@ -11,7 +11,7 @@ cover: "./assets/instacode.png"
 
 One thing that has been a pain in the but for a while is the hubspot image sliders. They give you two options - a carousel or a lightbox layout, each with a few options, but the end user experience is pretty bad. Long loading times prevent some of the scripts from loading, causing glitches for clients. Having to explain that you have to wait for the page to finish loading before you can click on an image for the lightbox isn't something that is going to fly. People visiting the site will never know that - and just assume the site is broken.
 
-We've been looking for a solution to this problem for a while, and recently cracked the output of the module. It requires doing <pre>export_to_template_context=True</pre> on the image slider module. Once that is done you have to pull the information out. You do that with the following code. - where <pre>custom_slider</pre> is the id you set for your slider.
+We've been looking for a solution to this problem for a while, and recently cracked the output of the module. It requires doing `export_to_template_context=True` on the image slider module. Once that is done you have to pull the information out. You do that with the following code. - where `custom_slider` is the id you set for your slider.
 {% highlight html %}
   {% for slide in widget_data.custom_slider.slides %}
      <img src="{{ slide.img_src }}" alt="{{ slide.alt_text }}" title="{{ slide.caption }}">
@@ -61,6 +61,6 @@ want to use bootstrap3 carousel? *note, indexs are 1 based, unless you use index
 </div>
 {% endhighlight %}
 
-While I haven't tried, you can most likely access the other options by using widget_data.custom_slider, so for auto_advance use <pre>widget_data.custom_slider.auto_advance</pre>. If you need to figure out a variable you can use the developer view - it spits out a massive json array.
+While I haven't tried, you can most likely access the other options by using widget_data.custom_slider, so for auto_advance use `widget_data.custom_slider.auto_advance`. If you need to figure out a variable you can use the developer view - it spits out a massive json array.
 
 Hopefully this helps you create custom galleries in hubspot.
