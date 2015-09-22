@@ -13,26 +13,26 @@ One thing that has been a pain in the but for a while is the hubspot image slide
 
 We've been looking for a solution to this problem for a while, and recently cracked the output of the module. It requires doing `export_to_template_context=True` on the image slider module. Once that is done you have to pull the information out. You do that with the following code. - where `custom_slider` is the id you set for your slider.
 
-{% highlight ERB %}
+```ERB
   {% for slide in widget_data.custom_slider.slides %}
      <img src="{{ slide.img_src }}" alt="{{ slide.alt_text }}" title="{{ slide.caption }}">
   {% endfor %}
-{% endhighlight %}
+```
 
 of course you can format that image however you want at this point as you are in complete control of the output, want to use bxslider?
 
-{% highlight ERB %}
+```ERB
 <ul class="bxslider">
   {% for slide in widget_data.custom_slider.slides %}
      <li><img src="{{ slide.img_src }}" alt="{{ slide.alt_text }}" title="{{ slide.caption }}"></li>
   {% endfor %}
 </ul>
-{% endhighlight %}
+```
 
 
 want to use bootstrap3 carousel? *note, indexs are 1 based, unless you use index0 to specify 0 index.
 
-{% highlight html %}
+```html
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -63,7 +63,7 @@ want to use bootstrap3 carousel? *note, indexs are 1 based, unless you use index
     <span class="sr-only">Next</span>
   </a>
 </div>
-{% endhighlight %}
+```
 
 While I haven't tried, you can most likely access the other options by using widget_data.custom_slider, so for auto_advance use `widget_data.custom_slider.auto_advance`. If you need to figure out a variable you can use the developer view - it spits out a massive json array.
 
