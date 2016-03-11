@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Marking Up with Microdata"
-permalink: marking-microdata
+permalink: marking-microdata/
 date:   2011-11-07 08:43:59
 author: Last Rose Studios
 categories: Programming
