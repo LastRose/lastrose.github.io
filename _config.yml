@@ -5,7 +5,7 @@ gems:
 # Site settings
 title: Last Rose Studios Dev Blog
 subtitle: "Development Blog for Last Rose Studios"
-email: 
+email: devblog@lastrose.com
 name: Gabriel
 description: > 
   Coding tricks picked up while working on sites.
