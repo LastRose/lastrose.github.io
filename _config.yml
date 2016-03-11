@@ -1,6 +1,7 @@
 # External gems
 gems:
   - jekyll-sitemap
+  - jekyll-archives
 
 # Site settings
 title: Last Rose Studios Dev Blog
@@ -13,7 +14,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://devblog.lastrose.com" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
-
+permalink: /:title/
 # Build settings
 markdown: kramdown
 paginate: 5
@@ -32,9 +33,7 @@ descriptions:
 
   - cat: programming
     desc: "Posts about some solutions we came up with"
-
-permalink: /:title/
-    
+   
 # Social icons and sharing options
 #
 # Social settings are used in two places:
