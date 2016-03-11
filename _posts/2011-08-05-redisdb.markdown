@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Discovering Redis"
-permalink: redisdb
+permalink: redisdb/
 date:   2011-08-05 08:43:59
 author: Last Rose Studios
 categories: Programming

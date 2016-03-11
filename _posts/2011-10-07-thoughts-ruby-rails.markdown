@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My thoughts on Ruby On Rails"
-permalink: thoughts-ruby-rails
+permalink: thoughts-ruby-rails/
 date:   2011-10-07 08:43:59
 author: Last Rose Studios
 categories: Programming

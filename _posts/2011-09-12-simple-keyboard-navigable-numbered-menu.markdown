@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple keyboard navigable numbered menu."
-permalink: simple-keyboard-navigable-numbered-menu
+permalink: simple-keyboard-navigable-numbered-menu/
 date:   2011-09-12 08:43:59
 author: Last Rose Studios
 categories: Programming

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A touch friendly multi-level menu"
-permalink: touch-friendly-multi-level-menu
+permalink: touch-friendly-multi-level-menu/
 date:   2013-01-28 08:43:59
 author: Last Rose Studios
 categories: Programming

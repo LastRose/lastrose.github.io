@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working with Laravel"
-permalink: working-with-laravel
+permalink: working-with-laravel/
 date:   2014-09-21 15:14:00
 author: Last Rose Studios
 categories: Programming

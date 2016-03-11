@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Starwars like opening crawl with css3"
-permalink: starwars-opening-crawl-css3
+permalink: starwars-opening-crawl-css3/
 date:   2011-09-21 08:43:59
 author: Last Rose Studios
 categories: Programming

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "If you're not using node.js you might want to at least consider it."
-permalink: node-js-it
+permalink: node-js-it/
 date:   2012-02-06 08:43:59
 author: Last Rose Studios
 categories: Programming

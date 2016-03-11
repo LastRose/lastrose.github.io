@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Node.JS with Express"
-permalink: node-js-express
+permalink: node-js-express/
 date:   2011-12-23 08:43:59
 author: Last Rose Studios
 categories: Programming

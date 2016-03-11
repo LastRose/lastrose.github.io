@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "jQueryUI lazyload tabs"
-permalink: jqueryui-lazyload-tabs
+permalink: jqueryui-lazyload-tabs/
 date:   2011-06-11 08:43:59
 author: Last Rose Studios
 categories: Programming

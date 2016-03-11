@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The dangers of automatically using the latest versions"
-permalink: dangers-automatically-latest-versions
+permalink: dangers-automatically-latest-versions/
 date:   2013-01-28 08:43:59
 author: Last Rose Studios
 categories: Programming

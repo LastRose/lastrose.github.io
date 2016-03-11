@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to add a FontAwesome field in the WordPress Customizer"
-permalink: how-create-fontawesome-wordpress-customizer-field
+permalink: how-create-fontawesome-wordpress-customizer-field/
 date:   2016-02-18 08:43:59
 author: Last Rose Studios
 categories: Programming

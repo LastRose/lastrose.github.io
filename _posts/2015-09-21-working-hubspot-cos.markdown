@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working on the Hubspot COS"
-permalink: working-on-hubspot
+permalink: working-on-hubspot/
 date:   2015-09-21 15:14:00
 author: Last Rose Studios
 categories: Programming

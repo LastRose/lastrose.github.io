@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A quick look at Sinatra"
-permalink: quick-look-sinatra
+permalink: quick-look-sinatra/
 date:   2011-08-05 08:43:59
 author: Last Rose Studios
 categories: Programming

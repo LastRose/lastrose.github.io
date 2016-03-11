@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Converting a 2d array into a 6d array"
-permalink: converting-2d-array-6d-array
+permalink: converting-2d-array-6d-array/
 date:   2011-06-10 08:43:59
 author: Last Rose Studios
 categories: Programming

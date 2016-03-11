@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Metaweblog API in codeignitor using XMLRPC"
-permalink: metaweblog-api-codeignitor-xmlrpc
+permalink: metaweblog-api-codeignitor-xmlrpc/
 date:   2011-09-27 08:43:59
 author: Last Rose Studios
 categories: Programming
