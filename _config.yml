@@ -33,6 +33,8 @@ descriptions:
   - cat: programming
     desc: "Posts about some solutions we came up with"
 
+permalink: ":title/"
+    
 # Social icons and sharing options
 #
 # Social settings are used in two places:
