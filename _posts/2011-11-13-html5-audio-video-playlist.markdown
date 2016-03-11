@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HTML5 Audio and Video and how to make a playlist"
-permalink: html5-audio-video-playlist
+permalink: html5-audio-video-playlist/
 date:   2011-11-13 08:43:59
 author: Last Rose Studios
 categories: Programming
