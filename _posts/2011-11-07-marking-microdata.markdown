@@ -67,7 +67,6 @@ We find that the best way to learn how to use something is to see it in action, 
 
     <!-- a bit of controversy on this one, as time was the accepted way of doing it, and was removed from the spec in favor of a data element with microformat, and then brought back. I've marked it up using microdata and the time element, however we get the feeling the controversy on this one is not over yet.-->
     <div class="time">Published <time itemprop="datePublished" datetime="2011-11-07T09:00Z">Today</time></div>
-
     <div class="categories">under the categories
       <ul>
         <li><a href="http://link.to/category/1"><span itemprop="articleSection">Category1</span></a></li>
