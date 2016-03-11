@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Build a Custom Gallery in the Hubspot COS"
-permalink: how-build-custom-gallery-hubspot
+permalink: how-build-custom-gallery-hubspot/
 date:   2015-09-22 15:41:00
 author: Last Rose Studios
 categories: Programming
