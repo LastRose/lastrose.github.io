@@ -14,7 +14,7 @@ I won't go in to the details of the WordPress customizer, you can read them over
 This is to showcase how to create a custom control - and in this case, one that lists icons available from FontAwesome.
 
 First step is to create the controls
-{% highlight php %}
+```php
     $wp_customize->add_setting( 'your_fontawesome_icon_title',
       array(
         'default'    => 'default'   ',
@@ -32,11 +32,11 @@ First step is to create the controls
         'priority' => 30,
       ) )
     );
-{% endhighlight %}
+```
 
 Next, create the custom control
 
-{% highlight php %}
+```php
 if ( ! class_exists( 'WP_Customize_Control' ) )
   return null;
 
@@ -95,6 +95,6 @@ class FontAwesome_Dropdown_Custom_Control extends WP_Customize_Control
 		return $icons;
 	}
 }
-{% endhighlight %}
+```
 
 With that done, when you go into the customizer, you should now see a field with FontAwesome icons. 
