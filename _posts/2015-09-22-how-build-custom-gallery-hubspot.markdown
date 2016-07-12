@@ -19,11 +19,12 @@ We've been looking for a solution to this problem for a while, and recently crac
  <img src="{{ slide.img_src }}" alt="{{ slide.alt_text }}" title="{{ slide.caption }}">
 {% endfor %}
 {% endraw %}
-{% endhighlight %}
+```
 
 of course you can format that image however you want at this point as you are in complete control of the output, want to use bxslider?
 
-{% highlight html+django %} {% raw %}
+```html+django
+{% raw %}
 <ul class="bxslider">
   {% for slide in widget_data.custom_slider.slides %}
     <li><img src="{{ slide.img_src }}" alt="{{ slide.alt_text }}" title="{{ slide.caption }}"></li>
