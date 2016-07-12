@@ -23,7 +23,7 @@ The fact that it is non-blocking is a big one. What this means is that when you 
 
 Express is a node.JS framework that handles creating the server, and has robust routing, dynamic view helpers, environmental based configuration, and a bunch of other features. It resembles Sinatra in that you give it the method and path, and then tell it what to do with that information. for example
 
-``javascript
+```javascript
 var app = express.createServer();  //creates the server
 
 app.get('/', function(req, res){ //creates the root path
