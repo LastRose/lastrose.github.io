@@ -15,12 +15,12 @@ With the release of HTML5 A whole bunch of new elements where introduced includi
 
 For those of you saying "what about browsers that don't support the audio or video element?" these browsers treat them like a div, and most of the information is lost, however since it reads it like a div, you can specify a fallback inside the tag. Below is an example of how to mark up an html5 audio or html5 video element. I'm only going to show the audio element, however the process is identical for both elements. Below is a simple example of how to markup an audio or video element.
 
-{% highlight html %}
+```html
 <audio id="audio" preload="auto" tabindex="0" controls="" >
   <source src="http://www.archive.org/download/bolero_69/Bolero.mp3">
   Your Fallback goes here
-</audio></pre>
-{% endhighlight %}
+</audio>
+```
 
 Most commonly the fallback is a flash version of the video or audio. One of the nice things about the audio and video element is that if it sees a valid source, then it will ignore the fallback content, it only triggers in older browsers. You can also specify multiple sources (more for the video element where there are still a few competing standards). and the browser will select the first one that it can understand.
 
@@ -28,7 +28,7 @@ Most commonly the fallback is a flash version of the video or audio. One of the 
 
 <iframe src="http://jsfiddle.net/lastrose/vkMqR/embedded/result" height="300" width="100%" frameborder="0"></iframe>In addition to the code above, we need to add a list of songs. We like to do it by using an unordered list, although you could equally use an ordered list to get track numbers. You could go into more detail with the track length, or more detailed information, however for the purposes of this tutorial, I'm keeping it simple.
 
-{% highlight html %}
+```html
 <ul id="playlist">
         <li class="active">
             <a href="http://www.archive.org/download/bolero_69/Bolero.mp3">
@@ -51,20 +51,20 @@ Most commonly the fallback is a flash version of the video or audio. One of the 
             </a>
         </li>
     </ul>
-{% endhighlight %}
+```
 
 As for HTML, that's it. Add a bit of CSS to get it styled
 
-{% highlight css %}
+```css
 #playlist,audio{background:#666;width:400px;padding:20px;}
 .active a{color:#5DB0E6;text-decoration:none;}
 li a{color:#eeeedd;background:#333;padding:5px;display:block;}
 li a:hover{text-decoration:none;}
-{% endhighlight %}
+```
 
 And now for the big part, the javascript. The Javascript for HTML5 Playlists Now that we have the base, lets talk about the javascript. HTML5 Audio and HTML5 Video have an API that you can hook into with javascript that lets you manipulate the video (or use the video to manipulate your html). In this particular instance, we are going to use the ENDED event as well as play() and volume() as well as load().
 
-{% highlight javascript %}
+```javascript
 var audio;
 var playlist;
 var tracks;
@@ -103,7 +103,7 @@ function run(link, player){
         audio[0].load();
         audio[0].play();
 }
-{% endhighlight %}
+```
 
 ## So what does all that do?
 

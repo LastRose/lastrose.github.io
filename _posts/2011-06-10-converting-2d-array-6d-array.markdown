@@ -23,7 +23,7 @@ grandparent_id //null if first or second gen</pre>
 
 Great, so that’s in a database, but now when I want to pull it out how do i organize it? What is the most effective way of rebuilding it into an array that I can easily use. I wanted to go through my array as little as possible. Here is what I came up with.
 
-{% highlight php %}
+```php
 foreach($test as $val) {
   if ($val[‘grandparent_id’]) {
     $new[$val[‘grandparent_id’]][‘children’][$val[‘parent_id’]][‘children’][$val[‘comment_id’]] = $val;
@@ -33,11 +33,11 @@ foreach($test as $val) {
     $new[$val[‘comment_id’]] = $val;
   }
 }
-{% endhighlight %}
+```
 
 I’m going through the aray and building a new more complex one as I go along. Total I will go through the array twice, once in this method here, and I’ll go through the new array in order to display it. The end array would look a little like this
 
-{% highlight php %}
+```php
 Array(
   [1] = > Array(
     [comment_id] => 1
@@ -65,6 +65,6 @@ Array(
     )
   )
 )
-{% endhighlight %}
+```
 
 That was the most efficient way I could think of. If anyone has a better way of handling it let me know. While this is done in PHP the logic should work in most other programming languages.

@@ -15,15 +15,15 @@ webdesign.tutsplus.com did a ribbon a while back, and I figured out a way to get
 
 Here is the html
 
-{% highlight html %}
+```html
 <div class=“ribbon”>
   <h1>3D Ribbon Effect</h1>
 </div>
-{% endhighlight %}
+```
 
 and here is the CSS
 
-{% highlight css %}
+```css
 div{
   margin:60px auto;
   height:50px;
@@ -70,4 +70,4 @@ div:before{
   -webkit-transform:rotate(45deg);
   -webkit-box-shadow:-1px 2px 2px #333;
 }
-{% endhighlight %}
+```

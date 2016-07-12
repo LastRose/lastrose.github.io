@@ -15,7 +15,7 @@ After seeing a numbered navigation on a site that was non-functional, it gave me
 
 The javascript is optional and it works very well without it (using access keys).
 
-{% highlight html %}
+```html
 <!doctype html>
 <html>
 <head>
@@ -114,4 +114,4 @@ $(window).load(function(){
 <div class="content number-8" id="links">This is a list of links</div>
 <div class="content number-9" id="contact">This is a contact page</div>
 </body></html>
-{% endhighlight %}
+```

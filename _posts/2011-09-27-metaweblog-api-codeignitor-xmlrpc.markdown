@@ -11,7 +11,7 @@ cover: "./assets/instacode.png"
 
 Originally this blog was built in codeignitor, however I decided to switch it up to wordpress for practice. During the construction of the original I decided that I wanted to handle different blogging software, and so I researched the metaweblog API and built it into codeignitor. Below is a base I made that was originally going to be for a video tutorial. I suck at video tutorials though, and the video was awful. The prep work left me with the well commented code below. I hope it can help someone out. You can see the code implemented with a database at [https://github.com/LastRose/MetaWeblog-API-for-CodeIgnitor](https://github.com/LastRose/MetaWeblog-API-for-CodeIgnitor). If you're interested in the sites I used as a reference, take a look at  [http://blogs.technet.com/b/larsnakkerud/metablog.ashx](http://blogs.technet.com/b/larsnakkerud/metablog.ashx),  [http://www.xmlrpc.com/metaWeblogApi](http://www.xmlrpc.com/metaWeblogApi) and [http://ellislab.com/codeigniter/user-guide/libraries/xmlrpc.html](http://ellislab.com/codeigniter/user-guide/libraries/xmlrpc.html). You can also take a look at the [wordpress xmlrpc file](http://core.svn.wordpress.org/trunk/xmlrpc.php)
 
-{% highlight php %}
+```php
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 $URL = '';
 class Xmlrpcs extends CI_Controller {
@@ -300,4 +300,4 @@ wWACH+H09wdGltaXplZCBieSBVbGVhZCBTbWFydFNhdmVyIQAAOw=='
         return $this->xmlrpc->send_response(array(true, 'boolean')); //here it expects a boolean value.
     }
 }
-{% endhighlight %}
+```

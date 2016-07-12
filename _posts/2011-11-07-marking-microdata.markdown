@@ -29,7 +29,7 @@ We find that the best way to learn how to use something is to see it in action, 
 
 ## A Simple Contact Page
 
-{% highlight html %}
+```html
 <div itemscope itemtype="http://schema.org/Person">
   <span itemprop="name">Persons Name</span>
   <img src="http://link.to/their/image.jpg" itemprop="image" />
@@ -48,11 +48,11 @@ We find that the best way to learn how to use something is to see it in action, 
   Home page:
   <a href="http://link.to/website" itemprop="url">link.to/website</a>
 </div>
-{% endhighlight %}
+```
 
 ## A Blog Post
 
-{% highlight html %}
+```html
 <!doctype html>
 <head>
 <title>title</title>
@@ -135,7 +135,7 @@ We find that the best way to learn how to use something is to see it in action, 
     </div>
   </footer>
 </article>
-{% endhighlight %}
+```
 
 ## So really what's the benefit?
 

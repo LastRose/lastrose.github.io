@@ -11,7 +11,7 @@ cover: "./assets/instacode.png"
 
 I won't go through the minor details, but rather highlight the things that make this tick. I also set this up for webkit only, I tried getting it work in firefox, but couldn't get the rotateX to work (not yet supported?) and didn't bother with IE, as IE will only just be getting that working by the time css4 comes out. I set up one container (#example) as my viewport, which I give a fixed width and height, and set overflow to hidden. I also make sure to set it's position.  Setting it's position will allow me control over how the text will scroll.
 
-{% highlight css %}
+```css
 #example{
     pointer-events:none;
     position:relative;
@@ -22,11 +22,11 @@ I won't go through the minor details, but rather highlight the things that make 
     -webkit-transform: perspective(200px) rotateX(45deg);
     transform: perspective(200px) rotateX(45deg);
 }
-{% endhighlight %}
+```
 
 You'll also notice that there is pointer-events:none, this is put so that if the container goes over my trigger link, it won't obstruct it's functionality, otherwise it might prevent me from being able to click. This container is then given a rotateX and perspective transform. Playing with perspective will effect how much depth it seems to have, and the rotateX angle will change the angle the text is at. These properties are what gives the text the appearance that it is getting smaller as it goes up. The text itself is set to position:absolute and given a position that is out of the viewport from the bottom, it is also given the pointer-events:none so that it doesn't interfere with the trigger link.
 
-{% highlight css %}
+```css
 #intro{
     pointer-events:none;
     position:absolute;
@@ -34,19 +34,19 @@ You'll also notice that there is pointer-events:none, this is put so that if the
     -webkit-transition:70s all;
     transition:70s all;
 }
-{% endhighlight %}
+```
 
 Here the transition is what causes the scrolling effect, as it transitions from the default state to the :target state. The whole thing is set off by using the :target pseudo-class. So a link that targets the text (a href="#intro"), will activate the css :target class. thanks to the transition in the base element will cause it to move towards the top of the viewport and out. this is what gives it the scrolling text appearance.
 
-{% highlight css %}
+```css
 #intro:target{
     top:-800px;
 }
-{% endhighlight %}
+```
 
 and here is the complete code.
 
-{% highlight html %}
+```html
 <html>
 <head>
 <style>
@@ -123,7 +123,7 @@ galaxy...
 </div>
 </div>
 </body>
-{% endhighlight %}
+```
 
 ## See it in Action
 
