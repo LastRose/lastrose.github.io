@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Filter by Sub-Collection"
+title:  "Shopify Filter by Sub-Collection"
 permalink: shopify-filter-sub-collection/
 date:   2016-07-12 17:14:00
 author: Last Rose Studios
@@ -8,6 +8,8 @@ categories: Programming
 tags: Shopify
 cover: "./assets/instacode.png"
 ---
+
+If you want to have a sub-collection in shopify, there are a few different ways of tackling this. You could use a linkgroup, which has it's benefits, or you could use the method described here.
 
 Step 1. Creating the Collections
 
@@ -21,7 +23,7 @@ Step 2. Editing your Collections page.
 On your collections page (or whatever snippet you are using) I added the following code. In this case I've used a select box, but you could just as easily replace the options with a list of links.
 
 
-{% highlight liquid %}
+```liquid
 <select id="Collection" name="Collection">
 	{% comment %}
 		We need to figure out the base collection, as well as the sub-collection - if set - of the collection page we are on. To do that we split the handle.
@@ -77,7 +79,7 @@ On your collections page (or whatever snippet you are using) I added the followi
   {% endfor %}
 </select>
 </div>
-{% endhighlight %}
+```
 
 If you are doing this with a select (like I did), you need some javascript to make it work. Nothing fancy, something like this will work. 
 {% highlight javascript %}
