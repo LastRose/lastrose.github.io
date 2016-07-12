@@ -31,7 +31,7 @@ On your collections page (or whatever snippet you are using) I added the followi
 	{% endcomment %}
   {% assign current_collection_type = collection.handle | split: '-' %}
   {% comment %}
-	Display a "Show All" type option to unfilter. Doesn't need to be displayed on the all page though, since everything is already being shown.
+	Display a "Show All" type option to un-filter. Does not need to be displayed on the all page though, since everything is already being shown.
   {% endcomment %}
   {% unless collection.handle == 'all' %}
     {% if current_collection_type[1] %}
@@ -51,7 +51,7 @@ On your collections page (or whatever snippet you are using) I added the followi
     {% endcomment %}
     {% if collection.handle == 'all' %}
 	  {% comment %}
-		Filter out all the collections that aren't top level
+		Filter out all the collections that aren not top level
 	  {% endcomment %}
       {% unless collection_type[1] %}
       <option value="{{ col.url }}">{{col.title}}</option>
@@ -62,7 +62,7 @@ On your collections page (or whatever snippet you are using) I added the followi
 	  {% endcomment %}
       {% if collection_type[1] %}
 		{% comment %}
-			If this iteration is part of the current main collection show it (we don't want to list sub-collections that aren't part of the main collection )
+			If this iteration is part of the current main collection show it (we do not want to list sub-collections that are not part of the main collection )
 		{% endcomment %}
         {% if collection_type[0] == current_collection_type[0] %}
 		  {% comment %}
