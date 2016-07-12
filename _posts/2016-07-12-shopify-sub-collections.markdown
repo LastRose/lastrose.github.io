@@ -24,6 +24,7 @@ On your collections page (or whatever snippet you are using) I added the followi
 
 
 ```liquid
+{% raw %}
 <select id="Collection" name="Collection">
 	{% comment %}
 		We need to figure out the base collection, as well as the sub-collection - if set - of the collection page we are on. To do that we split the handle.
@@ -79,16 +80,17 @@ On your collections page (or whatever snippet you are using) I added the followi
   {% endfor %}
 </select>
 </div>
+{% endraw %}
 ```
 
 If you are doing this with a select (like I did), you need some javascript to make it work. Nothing fancy, something like this will work. 
-{% highlight javascript %}
+```javascript
   $(function() {
     $('#Collection')
       .bind('change', function() {
         window.location.href = $(this).val();
       })
   })
-{% endhighlight %}
+```
 
 That's it, your done. 
