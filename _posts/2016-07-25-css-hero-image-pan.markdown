@@ -11,7 +11,7 @@ cover: "./assets/instacode.png"
 
 If you have ever had a background image that you wanted to show more of, consider panning through it using this technique. 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/fxac6y0y/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/fxac6y0y/5/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 First we create a simple header - you could mark it up however you wish, however to keep things simple I did
 
@@ -30,7 +30,7 @@ header {
   align-items: center;
   justify-content: center;
   background-size: cover;
-  background-image: url(https://images.unsplash.com/photo-1468245856972-a0333f3f8293); 
+  background-image: url(http://devblog.lastrose.com/assets/instacode.png); 
   animation-name: move;
   animation-duration: 40s;
   animation-iteration-count: infinite;
