@@ -65,18 +65,14 @@ li a:hover{text-decoration:none;}
 And now for the big part, the javascript. The Javascript for HTML5 Playlists Now that we have the base, lets talk about the javascript. HTML5 Audio and HTML5 Video have an API that you can hook into with javascript that lets you manipulate the video (or use the video to manipulate your html). In this particular instance, we are going to use the ENDED event as well as play() and volume() as well as load().
 
 ```javascript
-var audio;
-var playlist;
-var tracks;
-var current;
 
 init();
 function init(){
-    current = 0;
-    audio = $('#audio');
-    playlist = $('#playlist');
-    tracks = playlist.find('li a');
-    len = tracks.length - 1;
+    var current = 0;
+    var audio = $('#audio');
+    var playlist = $('#playlist');
+    var tracks = playlist.find('li a');
+    var len = tracks.length - 1;
     audio[0].volume = .10;
     audio[0].play();
     playlist.find('a').click(function(e){
@@ -100,8 +96,8 @@ function run(link, player){
         player.src = link.attr('href');
         par = link.parent();
         par.addClass('active').siblings().removeClass('active');
-        audio[0].load();
-        audio[0].play();
+        player.load();
+        player.play();
 }
 ```
 
