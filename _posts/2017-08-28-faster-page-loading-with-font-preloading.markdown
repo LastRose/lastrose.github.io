@@ -14,7 +14,9 @@ In theory this lets you load your stylesheets, scripts, fonts, images, audio, vi
 
 As a bonus, it can help reduce the infamous "flash of unstyled text" or blank backgrounds behind hero images.
 
-To implement this all you need to do is add a few lines of code to your header. Here is an example using google fonts as a source for your fonts (using the standard embed method).
+To implement this all you need to do is add a few lines of code to your header. Here is an example using Google fonts as a source for your fonts (using the standard embed method).
+note: Google does browser detection, and serves font files optimized for that browser, so preloading Google fonts is not recommended, but for a example they will do fine.
+
 ```html
 <head>
 	<link rel="preload" as="font" crossorigin type="font/woff2" href="https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2" />
@@ -28,7 +30,7 @@ or if you are using the @import method within another stylesheet
 	<link rel="preload" as="font" crossorigin type="font/woff2" href="https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2" />
 	<link rel="preload" as="style" crossorigin href="https://fonts.googleapis.com/css?family=Open+Sans" />
 	<link href="yourstylesheet.css" rel="stylesheet">
-	
+
 </head>
 ```
 
