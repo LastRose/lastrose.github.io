@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
 
-<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.url }});"{% endif %}>
 	<div class="scrim {% if site.cover %}has-cover{% endif %}">
 		<header class="site-header">
 		  <h1 class="title">{{ site.title }}</h1>
@@ -17,7 +17,7 @@ layout: default
   {% for post in paginator.posts %}
   <li>
     <h2>
-      <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="post-link" href="{{ post.url | remove_first: '/' | prepend: site.url }}">{{ post.title }}</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
@@ -27,7 +27,7 @@ layout: default
     	<div class="post-categories">
     	{% if post.categories %}in {% for cat in post.categories %}
     	  {% if site.jekyll-archives %}
-    		<a href="{{ site.baseurl }}category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
+    		<a href="{{ site.url }}category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
     	  {% else %}
     	  <span>{{ cat | capitalize }}</span>{% if forloop.last == false %}, {% endif %}
     	  {% endif %}
@@ -54,14 +54,14 @@ layout: default
 	<p>
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-      <a class="newer-posts" href="{{ site.baseurl }}">
+      <a class="newer-posts" href="{{ site.url }}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square fa-stack-2x"></i>
           <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
         </span>
       </a>
       {% else %}
-      <a class="newer-posts" href="{{ site.baseurl }}page{{paginator.previous_page}}">
+      <a class="newer-posts" href="{{ site.url }}page{{paginator.previous_page}}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square fa-stack-2x"></i>
           <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
@@ -76,7 +76,7 @@ layout: default
     {% endif %}
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-    <a class="newer-posts" href="{{ site.baseurl }}page{{paginator.next_page}}">
+    <a class="newer-posts" href="{{ site.url }}page{{paginator.next_page}}">
       <span class="fa-stack fa-lg">
         <i class="fa fa-square fa-stack-2x"></i>
         <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
@@ -90,7 +90,7 @@ layout: default
     {% endif %}
   </p>
   <p>
-    <a href="{{ site.baseurl }}posts">View All Posts by Category</a>
+    <a href="{{ site.url }}posts">View All Posts by Category</a>
   </p>
 </nav>
 
