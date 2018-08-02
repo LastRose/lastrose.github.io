@@ -10,7 +10,7 @@ email: devblog@lastrose.com
 name: Gabriel
 description: > 
   Coding tricks picked up while working on sites.
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://devblog.lastrose.com" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
