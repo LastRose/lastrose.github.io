@@ -88,15 +88,6 @@ social:
     share_title: ?mini=true
     share_link: "&amp;url="
 
-  - name: Google+
-    icon: google-plus
-    username: 
-    url: 
-    desc: Add me to your Circles
-    share_url: //plus.google.com/share
-    share_title: ?title=
-    share_link: "&amp;url="
-
   - name: YouTube
     icon: youtube
     username: 

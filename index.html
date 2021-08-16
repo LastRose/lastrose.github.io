@@ -58,6 +58,7 @@ layout: default
         <span class="fa-stack fa-lg">
           <i class="fa fa-square fa-stack-2x"></i>
           <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+          <span class="sr-only">Previous Page</span>
         </span>
       </a>
       {% else %}
@@ -65,6 +66,7 @@ layout: default
         <span class="fa-stack fa-lg">
           <i class="fa fa-square fa-stack-2x"></i>
           <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+          <span class="sr-only">Previous Page</span>
         </span>
       </a>
       {% endif %}
@@ -72,6 +74,7 @@ layout: default
     <span class="fa-stack fa-lg">
       <i class="fa fa-square fa-stack-2x"></i>
       <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+      <span class="sr-only">Previous Page (disabled)</span>
     </span>
     {% endif %}
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
@@ -80,12 +83,14 @@ layout: default
       <span class="fa-stack fa-lg">
         <i class="fa fa-square fa-stack-2x"></i>
         <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+        <span class="sr-only">Next Page</span>
       </span>
     </a>
     {% else %}
     <span class="fa-stack fa-lg">
       <i class="fa fa-square fa-stack-2x"></i>
       <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+      <span class="sr-only">Next Page (disabled)</span>
     </span>
     {% endif %}
   </p>
