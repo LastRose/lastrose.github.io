@@ -9,7 +9,7 @@ tags: Node.js express.js
 cover: "./assets/instacode.png"
 ---
 
-We've been interested in [node.js](http://nodejs.org/) for a while, however  just recently found out about the [express framework](http://expressjs.com). Having worked with ruby and sinatra, as discussed [here](http://www.lastrose.com/redis-db/ "A quick look at Sinatra"), one of the things we loved about sinatra was how easy it was to work with. Express does that, and in my opinion possibly better. Of course the language and framework is still young, so it will grow and develop.
+We've been interested in [node.js](https://nodejs.org/) for a while, however  just recently found out about the [express framework](https://expressjs.com). Having worked with ruby and sinatra, as discussed [here](https://devblog.lastrose.com/redisdb/ "A quick look at Sinatra"), one of the things we loved about sinatra was how easy it was to work with. Express does that, and in my opinion possibly better. Of course the language and framework is still young, so it will grow and develop.
 
 ## What is node.js?
 

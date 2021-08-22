@@ -9,9 +9,11 @@ tags: CSS Design
 cover: "./assets/instacode.png"
 ---
 
+***This probably isn't relevent anymore***
+
 One of the biggest pains about Chrome for windows is how it renders fonts. Internet Explorer has no issues (surprisingly) nor does Firefox, or Chrome for Mac. The problem is only on Chrome for windows. What's the problem? Jagged fonts that look awful and are not consistent with the other browsers.
 
-In the past there was a great fix for this issue, exploiting text-shadow (even a transparent text-shadow would work) to force the font to be anti-aliased a bit. That worked for a while until a chrome update fixed the "bug" that this fix depended on. Now I recently discovered this article -  [http://www.fontspring.com/blog/smoother-web-font-rendering-chrome](http://www.fontspring.com/blog/smoother-web-font-rendering-chrome) dated August of 2012\. In that article they share that the answer is to declare the SVG resource before the ttf or woff resources when you declare your font sources. So instead of
+In the past there was a great fix for this issue, exploiting text-shadow (even a transparent text-shadow would work) to force the font to be anti-aliased a bit. That worked for a while until a chrome update fixed the "bug" that this fix depended on. Now I recently discovered this article - [https://www.fontspring.com/blog/smoother-web-font-rendering-chrome](https://www.fontspring.com/blog/smoother-web-font-rendering-chrome) dated August of 2012\. In that article they share that the answer is to declare the SVG resource before the ttf or woff resources when you declare your font sources. So instead of
 
 ```css
 @font-face{

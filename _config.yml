@@ -11,7 +11,7 @@ name: Gabriel
 description: > 
   Coding tricks picked up while working on sites.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://devblog.lastrose.com/" # the base hostname & protocol for your site
+url: "https://devblog.lastrose.com/" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 permalink: /:title/
@@ -48,7 +48,7 @@ descriptions:
 #     username: "@TheBenCentra"             # (User) Name to display in the footer link
 #     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
 #     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share_url: http://twitter.com/share   # URL for sharing to the service (leave blank to not allow sharing)
+#     share_url: https://twitter.com/share   # URL for sharing to the service (leave blank to not allow sharing)
 #     share_title: ?text=                   # Title parameter for sharing URL
 #     share_link: "&amp;url="               # Link parameter for sharing URL
 social:
@@ -57,7 +57,7 @@ social:
     username: "@lastrosestudios"
     url: https://twitter.com/lastrosestudios
     desc: Follow me on Twitter
-    share_url: http://twitter.com/share
+    share_url: https://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 

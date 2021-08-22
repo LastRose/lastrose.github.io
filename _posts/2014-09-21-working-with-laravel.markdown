@@ -21,3 +21,6 @@ I ended up running into a lot of problems - some of the larger ones where
 -   Task scheduling option we chose was bugged, and while they did fix it in an updated version - that update didn't work on our servers OS.
 
 Overall, once the setup was done Laravel was great to work with. It felt a lot like Ruby, but with faster performance. If I was to do another large project I would consider it. It's not worth it for smaller projects simply because of the setup time.
+
+## Update
+Ultimately the language support wasn't great and conflicted with testing. Also laravel version changes, and dealing with dependencies made it a real pain in the rear.

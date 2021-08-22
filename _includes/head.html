@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
 
-  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <!-- Favicon and other icons (made with https://www.favicon-generator.org/) -->
   <link rel="shortcut icon" href="{{ "assets/icons/favicon.ico" | prepend: site.url }}" type="image/x-icon">
 	<link rel="icon" href="{{ "assets/icons/favicon.ico" | prepend: site.url }}" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ "assets/icons/apple-icon-57x57.png" | prepend: site.url }}">
@@ -53,14 +53,6 @@
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{{ site.protocols.twitter_image | prepend: site.url | prepend: site.url }}">
   <meta name="twitter:url" content="{{ site.url }}">
-
-  {% if protocols.os_repo and protocols.os_rcs_type and protocols.os_src %}
-  <!-- Open Source Protocol -->
-  <link rel="profile" href="http://osprotocol.com" />
-  <meta property="os:repo" content="{{ protocols.os_repo }}" />
-  <meta property="os:rcs_type" content="{{ protocols.os_rcs_type }}" />
-  <meta property="os:src" content="{{ protocols.os_src }}" />
-  {% endif %}
 
 	<!-- Site styles -->
   <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.url }}">

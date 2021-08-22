@@ -34,7 +34,6 @@ or if you are using the @import method within another stylesheet
 </head>
 ```
 
-
 What kind of improvement can you expect? Most sites that implemented this technique have seen an improvement of 1-2 seconds shaved off of load time. Shopify claims it improved loading time by 50% https://shopifyengineering.myshopify.com/blogs/engineering/how-17-lines-of-code-improved-shopify-com-loading-by-50. Our own experiences have shown similar improvements with one of our seeing a full 2 seconds shaved off the loading time. While your results may vary, you should see some sort of improvement.
 
 The great part about this is that there is no feature detection necessary. Older browsers will simply ignore the directive. At the time of writing this is supported only by Chrome and Opera, however it will be supported in Firefox version 56 and higher, upcomming versions of Safari (11 and higher) and it is "under consideration" by Edge.

@@ -21,42 +21,42 @@ and to handle the different generations I added
 <pre>parent_id //null if first gen
 grandparent_id //null if first or second gen</pre>
 
-Great, so that’s in a database, but now when I want to pull it out how do i organize it? What is the most effective way of rebuilding it into an array that I can easily use. I wanted to go through my array as little as possible. Here is what I came up with.
+Great, so that's in a database, but now when I want to pull it out how do i organize it? What is the most effective way of rebuilding it into an array that I can easily use. I wanted to go through my array as little as possible. Here is what I came up with.
 
 ```php
 foreach($test as $val) {
-  if ($val[‘grandparent_id’]) {
-    $new[$val[‘grandparent_id’]][‘children’][$val[‘parent_id’]][‘children’][$val[‘comment_id’]] = $val;
-  } else if ($val[‘parent_id’]) {
-    $new[$val[‘parent_id’]][‘children’][$val[‘comment_id’]] = $val;
+  if ($val['grandparent_id']) {
+    $new[$val['grandparent_id']]['children'][$val['parent_id']]['children'][$val['comment_id']] = $val;
+  } else if ($val['parent_id']) {
+    $new[$val['parent_id']]['children'][$val['comment_id']] = $val;
   } else {
-    $new[$val[‘comment_id’]] = $val;
+    $new[$val['comment_id']] = $val;
   }
 }
 ```
 
-I’m going through the aray and building a new more complex one as I go along. Total I will go through the array twice, once in this method here, and I’ll go through the new array in order to display it. The end array would look a little like this
+I'm going through the aray and building a new more complex one as I go along. Total I will go through the array twice, once in this method here, and I'll go through the new array in order to display it. The end array would look a little like this
 
 ```php
 Array(
   [1] = > Array(
     [comment_id] => 1
     [name] => name
-    [url] => <a href = "http://www.something.com/">www.something.com</a>
+    [url] => <a href = "https://www.something.com/">www.something.com</a>
     [parent_id] =>
     [grandparent_id] =>
     [children] => Array (
       [2] => Array(
         [comment_id] => 2
         [name] => name
-        [url] => <a href="http:/ / www.something.com / ">www.something.com</a>
+        [url] => <a href="https:/ / www.something.com / ">www.something.com</a>
         [parent_id] => 1
         [grandparent_id] =>
         [children] => Array(
           [6] => Array(
             [comment_id] => 6
             [name] => name
-            [url] => <a href="http: //www.something.com/">www.something.com</a>
+            [url] => <a href="https: //www.something.com/">www.something.com</a>
             [parent_id] = > 2
             [grandparent_id] = > 1
           )

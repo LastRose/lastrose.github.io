@@ -30,7 +30,7 @@ header {
   align-items: center;
   justify-content: center;
   background-size: cover;
-  background-image: url(http://devblog.lastrose.com/assets/instacode.png); 
+  background-image: url(https://devblog.lastrose.com/assets/instacode.png); 
   animation-name: move;
   animation-duration: 40s;
   animation-iteration-count: infinite;
