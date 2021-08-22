@@ -887,3 +887,12 @@ ins.adsbygoogle {
   clear:both;
   margin-bottom: 2em;
 }
+
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
