@@ -60,6 +60,7 @@ hljs.highlightAll();
 const menuToggle = document.querySelector('#js-mobile-menu');
 const jsNavigation = document.querySelector('#js-navigation-menu');
 
+jsNavigation.classList.remove('show');
 menuToggle.addEventListener('click', e => {
   e.preventDefault();
   jsNavigation.classList.toggle('show');
