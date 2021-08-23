@@ -20,7 +20,7 @@ permalink: /:title/
 markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
-
+future: false
 # Disqus comments
 disqus_shortname: lastrosestudiosinc
 
