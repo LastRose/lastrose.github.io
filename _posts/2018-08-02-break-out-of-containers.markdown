@@ -23,5 +23,7 @@ You can break out of that container using the following code
 }
 ```
 
-It doesn't take into account scroll bars, so if you have a vertical scroll bar, it will add a horizontal scrollbar to deal with the scrollbar width that's off screen.
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/36j258hy/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+It doesn't take into account scroll bars, so if you have a vertical scroll bar, it will add a horizontal scrollbar to deal with the scrollbar width that's off screen. That said, there is the new dvw which might solve that issue.
 Know another way? Have a fix for the scrollbar issue? Leave a comment

@@ -46,7 +46,7 @@ div > * {
 }
 ```
 <script async src=""></script>
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/fedtp19r/embed/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+<script  src="//jsfiddle.net/lastrose/fedtp19r/embed/result/"  async async></script>
 ### The pros of doing it this way
 
 #### Accessibility
@@ -58,6 +58,9 @@ Since you aren't limited to background-image, you can easily use video as a back
 #### Stack more objects
 Before you where limited to whatever you could fit before or after, though I suppose you could have also added
 
+### Cleaner code
+It's a lot less code, and (arguably) easier to understand what is going on.
+
 ### The cons of doing it this way
 
 #### Image Size
@@ -66,7 +69,8 @@ If your image is the largest object, than it will be the height of the image.
 This might not be a huge issue depending on how you plan on using it.
 
 ### Why couldn't we just absolute position the elements?
-In theory you could have. It might solve the image problem, however when you have other content that is larger than the container, it would either overflow or get cut off (depending on what you've set overflow to), without expanding the container.
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/gq59nL6e/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+We could and we have. The biggest issue is if you have other content that is larger than the container, it would either overflow or get cut off (depending on what you've set overflow to), without expanding the container.
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/gq59nL6e/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" async></iframe>
 
-
+## Should I use it?
+I would say that it would depend, but for most applications I think the grid method would be preferable to the absolute positioned one. The exception might be if you absolutely need to keep the aspect ratio, then you might need to use absolute positioning.

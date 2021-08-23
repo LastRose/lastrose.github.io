@@ -25,4 +25,4 @@ Have been added.
 If you try `width: 100dvw|svw|lvw` you won't get the annoying scroll bar.
 
 It's currently part of a working draft, so not part of the official specs yet.
-Browser support is unknown at this time but it works in chrome.
+Browser support is unknown at this time. We've had intermitent success with different browsers, but would make sure there is a fallback to the base vw/vh units.

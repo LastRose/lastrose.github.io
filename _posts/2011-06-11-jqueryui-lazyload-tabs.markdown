@@ -11,7 +11,7 @@ cover: "./assets/instacode.png"
 
 Example can be seen at [jsfiddle.net/Gr7Vp/](https://jsfiddle.net/Gr7Vp/) 
 
-<iframe width="100%" height="300" src="https://jsfiddle.net/Gr7Vp/embedded/result" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="https://jsfiddle.net/Gr7Vp/embedded/result" frameborder="0" async allowfullscreen="allowfullscreen"></iframe>
 
 In the tab initialization, we start off by disabling all the tabs, and enabling the cache. The cache is enabled so that the tab doesn't reload when you click on the tab. Next in the "load:" portion you can specify anything you want to happen when the tab has loaded (either play around with the content, or the tab heading).
 
