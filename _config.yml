@@ -2,6 +2,7 @@
 gems:
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-seo-tag
 
 # Site settings
 title: Last Rose Studios Dev Blog
