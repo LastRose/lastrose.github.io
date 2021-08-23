@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "CSS Gap - it's not just for Grid"
+permalink: css-gap/
+date:   2021-08-02 7:14:00
+author: Last Rose Studios
+categories: Programming
+tags: CSS
+cover: "./assets/instacode.png"
+---
+
+## Gap for Display: flex
+
+While we've used the gap property in grids, browser support prevented us from considering using for flexbox. That is changing as most current browsers now support it.
+
+It really shines in dynamic layouts that use `flex-wrap: wrap;`
+
+```css
+.parent {
+  padding-inline: 2rem; // To keep the container away from the edges
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+```
+
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/xuy9agwh/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+## That's cool but what does it actually do?
+Rather than adding a margin to the child elements, you can simply add a gap property to the parent, which will add the consistant margin between each child element. It doesn't add any margin to the outside however, which is why the example includes a margin to the sides.
+
+## Should you use it?
+Browser Support isn't great yet with older versions of Safari being the biggest issue.https://caniuse.com/mdn-css_properties_gap_flex_context, that said, I would use it, as I expect adoption of new versions of Safari to be somewhat quick.
