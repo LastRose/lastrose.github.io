@@ -7,7 +7,7 @@ gems:
 title: Last Rose Studios Dev Blog
 subtitle: "Development Blog for Last Rose Studios"
 email: devblog@lastrose.com
-name: Gabriel
+name: Last Rose Studios
 description: > 
   Coding tricks picked up while working on sites.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -24,14 +24,14 @@ paginate_path: "/page:num/"
 disqus_shortname: lastrosestudiosinc
 
 # Google analytics
-ga_tracking_id: "UA-20320023-13"
+ga_tracking_id: "G-HP9M043Z6R"
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
+  - cat: Platforms
     desc: "Posts describing Jekyll setup techniques."
 
-  - cat: programming
+  - cat: Programming
     desc: "Posts about some solutions we came up with"
    
 # Social icons and sharing options

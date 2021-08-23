@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
 
-<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.url }});"{% endif %}>
+<div class="site-header-container {% if site.cover %}jarallax has-cover{% endif %}" {% if site.cover %} data-jarallax style="background-image: url({{ site.cover | prepend: site.url }});"{% endif %}>
 	<div class="scrim {% if site.cover %}has-cover{% endif %}">
 		<header class="site-header">
 		  <h1 class="title">{{ site.title }}</h1>
@@ -40,16 +40,6 @@ layout: default
   {% endif %}
   {% endfor %}
 </ul>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- DevBlog -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5684166330297086"
-     data-ad-slot="1972351144"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <nav class="pagination" role="navigation">
 	<p>
     {% if paginator.previous_page %}
