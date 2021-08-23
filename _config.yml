@@ -29,7 +29,7 @@ ga_tracking_id: "G-HP9M043Z6R"
 # Category descriptions (for archive pages)
 descriptions:
   - cat: Platforms
-    desc: "Posts describing Jekyll setup techniques."
+    desc: "Posts about different platforms we work with."
 
   - cat: Programming
     desc: "Posts about some solutions we came up with"
