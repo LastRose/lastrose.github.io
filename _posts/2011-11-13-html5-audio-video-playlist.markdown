@@ -26,7 +26,7 @@ Most commonly the fallback is a flash version of the video or audio. One of the 
 
 ## The HTML for the Playlists
 
-<iframe src="https://jsfiddle.net/lastrose/vkMqR/embedded/result" height="300" width="100%" frameborder="0"></iframe>In addition to the code above, we need to add a list of songs. We like to do it by using an unordered list, although you could equally use an ordered list to get track numbers. You could go into more detail with the track length, or more detailed information, however for the purposes of this tutorial, I'm keeping it simple.
+<script src="https://jsfiddle.net/lastrose/vkMqR/embedded/result" async></script>In addition to the code above, we need to add a list of songs. We like to do it by using an unordered list, although you could equally use an ordered list to get track numbers. You could go into more detail with the track length, or more detailed information, however for the purposes of this tutorial, I'm keeping it simple.
 
 ```html
 <ul id="playlist">

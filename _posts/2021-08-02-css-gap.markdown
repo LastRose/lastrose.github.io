@@ -24,7 +24,7 @@ It really shines in dynamic layouts that use `flex-wrap: wrap;`
 }
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/xuy9agwh/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<script  src="//jsfiddle.net/lastrose/xuy9agwh/embedded/result/"  async></script>
 
 ## That's cool but what does it actually do?
 Rather than adding a margin to the child elements, you can simply add a gap property to the parent, which will add the consistant margin between each child element. It doesn't add any margin to the outside however, which is why the example includes a margin to the sides.

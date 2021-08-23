@@ -11,7 +11,7 @@ cover: "./assets/instacode.png"
 
 If you have ever had a background image that you wanted to show more of, consider panning through it using this technique. 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/fxac6y0y/5/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<script  src="//jsfiddle.net/lastrose/fxac6y0y/5/embedded/result/"  async></script>
 
 First we create a simple header - you could mark it up however you wish, however to keep things simple I did
 

@@ -45,7 +45,7 @@ Why is this useful? If you deal mostly with english this probably isn't that use
 ```
 now you can just have `div { padding-block-start: 1rem; }`
 
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/v8Lu5xjr/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<script  src="//jsfiddle.net/lastrose/v8Lu5xjr/embedded/result/"  async></script>
 
 You can read more about it here https://drafts.csswg.org/css-logical/#page
 Keep in mind that it is still a draft, so it might change however browser support is pretty good with all current browsers supporting it. Older versions of Safari and IE might have some trouble with it though, so keep that in mind.

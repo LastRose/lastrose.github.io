@@ -57,6 +57,6 @@ Take the example above. if you have the following html
 </div>
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/zay0hu37/embedded/result/dark/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+<script  src="//jsfiddle.net/lastrose/zay0hu37/embedded/result/dark/"  async async></script>
 
 It's also great for light/dark modes, and for themes.
