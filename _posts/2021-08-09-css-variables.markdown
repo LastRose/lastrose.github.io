@@ -56,7 +56,6 @@ Take the example above. if you have the following html
   <p><button class="btn-default">Button</button></p>
 </div>
 ```
-
-<script  src="//jsfiddle.net/lastrose/zay0hu37/embedded/result/dark/"  async async></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/zay0hu37/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
 
 It's also great for light/dark modes, and for themes.

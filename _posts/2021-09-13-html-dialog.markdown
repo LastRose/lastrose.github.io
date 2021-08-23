@@ -30,7 +30,8 @@ const close = document.querySelector('#dialog-close');
 open.addEventListener( 'click', e => dialog.showModal() );
 close.addEventListener( 'click', e=> dialog.close() );
 ```
-<script  src="//jsfiddle.net/lastrose/chxf1rao/embedded/result/"  async></script>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/chxf1rao/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
 
 and that's it. Out of the box Chrome applies some basic styles to the dialog box, and would imagine other browsers would implement their own styling as well (A new reset needed?). You can set your own styling to it though, and can style the backdrop as well using `dialog::backdrop{}`. 
 

@@ -45,8 +45,8 @@ div > * {
   grid-area: 1/1/1/1;
 }
 ```
-<script async src=""></script>
-<script  src="//jsfiddle.net/lastrose/fedtp19r/embed/result/"  async async></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/fedtp19r/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+
 ### The pros of doing it this way
 
 #### Accessibility
