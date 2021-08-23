@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="page">
- <div class="site-header-container {% if site.cover %}has-cover jarallax{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.url }});"{% endif %}>
+ <div class="site-header-container {% if site.cover %}has-cover jarallax{% endif %}" {% if site.cover %}data-jarallax style="background-image: url({{ site.cover | prepend: site.url }});"{% endif %}>
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
       <h1 class="title">{{ page.title }}</h1>
