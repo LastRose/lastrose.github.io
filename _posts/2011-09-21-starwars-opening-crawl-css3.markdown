@@ -128,4 +128,4 @@ a{
 
 [Click here](https://jsfiddle.net/lastrose/Z8MUB/embedded/result/) to see it full screen, takes a few seconds to start
 
-<iframe src="https://jsfiddle.net/lastrose/Z8MUB/embedded/result" height="300" width="100%" frameborder="0" async allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://jsfiddle.net/lastrose/Z8MUB/embedded/result" height="300" width="100%" frameborder="0" loading="lazy" allowfullscreen="allowfullscreen"></iframe>

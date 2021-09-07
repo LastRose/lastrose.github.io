@@ -45,7 +45,7 @@ div > * {
   grid-area: 1/1/1/1;
 }
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/fedtp19r/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/fedtp19r/embedded/result/" allowfullscreen="allowfullscreen" loading="lazy" frameborder="0"></iframe>
 
 ### The pros of doing it this way
 
@@ -70,7 +70,7 @@ This might not be a huge issue depending on how you plan on using it.
 
 ### Why couldn't we just absolute position the elements?
 We could and we have. The biggest issue is if you have other content that is larger than the container, it would either overflow or get cut off (depending on what you've set overflow to), without expanding the container.
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/gq59nL6e/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" async></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/gq59nL6e/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0" loading="lazy"></iframe>
 
 ## Should I use it?
 I would say that it would depend, but for most applications I think the grid method would be preferable to the absolute positioned one. The exception might be if you absolutely need to keep the aspect ratio, then you might need to use absolute positioning.

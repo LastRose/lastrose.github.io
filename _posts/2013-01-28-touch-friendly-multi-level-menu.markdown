@@ -13,7 +13,7 @@ Multi-Level menus are the foundation of many content-rich sites. They allow user
 
 With touch screen becoming the main input method of these devices, many multi-level menus became unusable. This issue was partially solved using media-queries allowing for a different styled menu to display for people using phones or tablets. This solved the issue for a while, until more recently. The problem with media-queries is that they depend on screen size, and with many newer touch screen devices (including in here many new windows 8 tablets) the screen resolution can no longer be used (briefly had a 12" windows 8 tablet with the same resolution as a 27" screen) as such media queries went out the window. Browser sniffing is an equally useless option, and remapping touch to hover, and then making the second touch a click is just a mess. So what is the solution? The solution is to keep the menu's behaviour the same, but add a button beside a menu element that when clicked would open a menu and keep it open. This allows touch screen users access the elements beneath. There are a number of ways to do that, but this is so far the best way I've found to implement it. [JS Bin](https://jsbin.com/aloxag/9/embed?live)
 
-<iframe src="https://output.jsbin.com/aloxag/9" height="300" width="100%" frameborder="0" async allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://output.jsbin.com/aloxag/9" height="300" width="100%" frameborder="0" loading="lazy" allowfullscreen="allowfullscreen"></iframe>
 
 ```html
 <div class="navigation">

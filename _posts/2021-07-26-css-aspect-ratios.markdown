@@ -32,7 +32,7 @@ In the past we relied on the padding hack. We absolute position the children, an
   height: 100%;
 }
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/c75pjwd6/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/c75pjwd6/embedded/result/" allowfullscreen="allowfullscreen" loading="lazy" frameborder="0"></iframe>
 
 ### The new way
 
@@ -41,7 +41,7 @@ In the past we relied on the padding hack. We absolute position the children, an
   aspect-ratio: 4/3
 }
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/p31jtmkx/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/p31jtmkx/embedded/result/" allowfullscreen="allowfullscreen" loading="lazy" frameborder="0"></iframe>
 
 ### So what's the difference?
 
@@ -50,7 +50,7 @@ Other than being more concise, you can just apply it to the child element, meani
 The other difference is how it handles the content expanding past the container. `aspect-ratio` is very loose and will expand to fit the content (though seems to be fine with images). The padding hack method is limited to the defined ratio, and any content more than that will be treaded as overflow (i.e you can hide, show or scroll).
 
 here is an example
-<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/75h2de9a/embedded/result/" allowfullscreen="allowfullscreen" async frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/lastrose/75h2de9a/embedded/result/" allowfullscreen="allowfullscreen" loading="lazy" frameborder="0"></iframe>
 
 ### Should I use it?
 Browser support isn't great yet, so I wouldn't use it just yet, but it's something I'm looking forward to using in the future.
