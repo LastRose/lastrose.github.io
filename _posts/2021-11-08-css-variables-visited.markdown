@@ -11,7 +11,7 @@ cover: "./assets/instacode.png"
 
 ## :Visited can't use css variables
 
-After spending some time to figure out why I couldn't get my `visited` link styles to work, I looked at the specifications. 
+After spending some time to figure out why I couldn't get my `:visited` link styles to work, I looked at the specifications. 
 It turns out that the only properties that are allowed on visited links are `color`, `background-color`, `border-color` and it's positional varients, `column-rule-color`,  `outline-color`, `text-decoration-color`, and `text-emphasis-color`.
 SVG `fill` and `stroke` are also allowable. 
 
